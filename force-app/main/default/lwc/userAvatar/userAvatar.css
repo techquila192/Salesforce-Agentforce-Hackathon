@@ -1,0 +1,12 @@
+.user-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* right-align */
+    padding: 0.5rem 1rem;
+  }
+  
+  .user-name {
+    margin-left: 0.5rem;
+    font-weight: 500;
+  }
+  

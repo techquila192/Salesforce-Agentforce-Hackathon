@@ -1,0 +1,12 @@
+<template>
+    <div class="user-container" if:true={userName}>
+      <lightning-avatar
+        size="small"
+        variant="circle"
+        initials={initials}
+        title={userName}
+      ></lightning-avatar>
+      <span class="user-name">{userName}</span>
+    </div>
+  </template>
+  
